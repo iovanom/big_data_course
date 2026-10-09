@@ -1,0 +1,57 @@
+# ==================================================================
+# Datasets & fișiere mari
+# ==================================================================
+# Dataset-ul Yelp de la rădăcină (JSON brut, arhivă ZIP, acord de
+# utilizare, directoare derivate delta/parquet/parquet_partitioned)
+/data/
+
+# Datele pentru laboratorul 1: JSON brut (~5 GB) + Parquet,
+# Parquet partiționat și Delta Lake (~14 GB în total)
+/laborator_1/data/
+
+# Arhive
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+
+# ==================================================================
+# Spark / Delta Lake
+# ==================================================================
+spark-warehouse/
+_delta_smoke_test/
+*.crc
+_SUCCESS
+part-*.parquet
+
+# ==================================================================
+# Jupyter
+# ==================================================================
+.ipynb_checkpoints/
+
+# ==================================================================
+# Python
+# ==================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+
+# ==================================================================
+# Unelte / OS / editor
+# ==================================================================
+.playwright-cli/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
