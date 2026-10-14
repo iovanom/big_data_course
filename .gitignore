@@ -55,3 +55,7 @@ Thumbs.db
 .idea/
 .vscode/
 *.log
+
+producer.log
+
+.env
